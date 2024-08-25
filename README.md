@@ -39,7 +39,7 @@ For any general usage on this library, import this interface:
 
 ## Validation list definition & adapter
 The adapter makes sure validations are being determined in real-time using cute icons
-![Alt text](https://ibb.co/bB8xwWr)
+![App Screenshot](https://i.ibb.co/Ykq6nRt/mobile.png)
 ```
         ...
         
