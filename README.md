@@ -58,6 +58,8 @@ The adapter makes sure validations are being determined in real-time using cute 
 
 ## Custom Validation
 To implement custom validations, use these functions on the main activity
+
+![App Screenshot](https://i.ibb.co/7kmT3hC/validation.png)
 ```
 import com.example.textvalidationlib.Model.CustomValidation;
 
