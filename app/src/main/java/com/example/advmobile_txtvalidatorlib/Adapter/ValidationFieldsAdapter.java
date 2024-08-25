@@ -11,14 +11,9 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.advmobile_txtvalidatorlib.R;
-import com.example.textvalidationlib.Model.NumericValidation;
-import com.example.textvalidationlib.Model.PasswordStrengthValidation;
-import com.example.textvalidationlib.Model.PhoneNumberValidation;
 import com.example.textvalidationlib.Model.ValidationField;
-import com.example.textvalidationlib.Model.VerbalValidation;
 
 import java.util.List;
-import java.util.logging.Logger;
 
 public class ValidationFieldsAdapter extends RecyclerView.Adapter<ValidationFieldsAdapter.ValidationFieldViewHolder> {
 

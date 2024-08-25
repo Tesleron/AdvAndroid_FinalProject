@@ -51,8 +51,6 @@ public class MainActivity extends AppCompatActivity {
         validationFields.add(new VerbalValidation());
 
         adapter.notifyItemInserted(validationFields.size() - 1);
-
-        Log.d("pttt","OnCreate of main");
     }
 
     private void addNewValidationField() {
