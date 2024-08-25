@@ -31,13 +31,15 @@ Add the library dependency to your app module's build.gradle file:
 Replace Tag with the specific version or commit tag you want to use from the repository.
 
 # Usage
+For any general usage on this library, import this interface:
 ```
-    for any general usage on this library, import this interface:
     import com.example.textvalidationlib.Model.ValidationField;
     import com.example.advmobile_txtvalidatorlib.Adapter.ValidationFieldsAdapter;
 ``` 
 
 ## Validation list definition & adapter
+The adapter makes sure validations are being determined in real-time using cute icons
+![Alt text](https://ibb.co/bB8xwWr)
 ```
         ...
         
@@ -55,10 +57,8 @@ Replace Tag with the specific version or commit tag you want to use from the rep
 ```
 
 ## Custom Validation
-```
-
 To implement custom validations, use these functions on the main activity
-
+```
 import com.example.textvalidationlib.Model.CustomValidation;
 
 ...
